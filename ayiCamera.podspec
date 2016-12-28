@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
  # s.source_files  = "ayiCamera/ayi/**/*.{h,m}"
 
-  s.source_files = 'ayiCamera-iOS/ayi/**/*'
+  s.source_files = 'ayiCamera/ayi/**/*'
 
   s.frameworks    = "UIKit"
   s.requires_arc  = true

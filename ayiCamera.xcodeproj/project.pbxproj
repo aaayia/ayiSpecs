@@ -27,9 +27,6 @@
 		23B49DAB1E12AFC80067E53F /* CaptureSessionPipelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D8A1E12AFC80067E53F /* CaptureSessionPipelineViewController.m */; };
 		23B49DAC1E12AFC80067E53F /* PermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D8C1E12AFC80067E53F /* PermissionsManager.m */; };
 		23B49DAD1E12AFC80067E53F /* PreviewPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D8E1E12AFC80067E53F /* PreviewPhotoViewController.m */; };
-		23B49DAE1E12AFC80067E53F /* my-profile-new-photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49D901E12AFC80067E53F /* my-profile-new-photo@2x.png */; };
-		23B49DAF1E12AFC80067E53F /* my-profile-select-photo_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49D911E12AFC80067E53F /* my-profile-select-photo_default@2x.png */; };
-		23B49DB01E12AFC80067E53F /* step4-upload-pictures-select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49D921E12AFC80067E53F /* step4-upload-pictures-select@2x.png */; };
 		23B49DB11E12AFC80067E53F /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D941E12AFC80067E53F /* UIImage+Extension.m */; };
 		23B49DB21E12AFC80067E53F /* PhotoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D971E12AFC80067E53F /* PhotoAlbumCell.m */; };
 		23B49DB31E12AFC80067E53F /* PhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D991E12AFC80067E53F /* PhotoAlbumViewController.m */; };
@@ -37,8 +34,9 @@
 		23B49DB51E12AFC80067E53F /* PhotoPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D9D1E12AFC80067E53F /* PhotoPickerCell.m */; };
 		23B49DB61E12AFC80067E53F /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49D9F1E12AFC80067E53F /* PhotoPickerViewController.m */; };
 		23B49DB71E12AFC80067E53F /* PlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49DA11E12AFC80067E53F /* PlaceholderCell.m */; };
-		23B49DB81E12AFC80067E53F /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49DA61E12AFC80067E53F /* SwipeView.m */; };
-		23B49DB91E12AFC80067E53F /* PhotosBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49DA81E12AFC80067E53F /* PhotosBrowserViewController.m */; };
+		23B49DBE1E1360450067E53F /* my-profile-new-photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49DBB1E1360450067E53F /* my-profile-new-photo@2x.png */; };
+		23B49DBF1E1360450067E53F /* my-profile-select-photo_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49DBC1E1360450067E53F /* my-profile-select-photo_default@2x.png */; };
+		23B49DC01E1360450067E53F /* step4-upload-pictures-select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B49DBD1E1360450067E53F /* step4-upload-pictures-select@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,9 +83,6 @@
 		23B49D8C1E12AFC80067E53F /* PermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionsManager.m; sourceTree = "<group>"; };
 		23B49D8D1E12AFC80067E53F /* PreviewPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewPhotoViewController.h; sourceTree = "<group>"; };
 		23B49D8E1E12AFC80067E53F /* PreviewPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewPhotoViewController.m; sourceTree = "<group>"; };
-		23B49D901E12AFC80067E53F /* my-profile-new-photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-profile-new-photo@2x.png"; sourceTree = "<group>"; };
-		23B49D911E12AFC80067E53F /* my-profile-select-photo_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-profile-select-photo_default@2x.png"; sourceTree = "<group>"; };
-		23B49D921E12AFC80067E53F /* step4-upload-pictures-select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4-upload-pictures-select@2x.png"; sourceTree = "<group>"; };
 		23B49D931E12AFC80067E53F /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		23B49D941E12AFC80067E53F /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		23B49D961E12AFC80067E53F /* PhotoAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumCell.h; sourceTree = "<group>"; };
@@ -102,10 +97,9 @@
 		23B49D9F1E12AFC80067E53F /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
 		23B49DA01E12AFC80067E53F /* PlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderCell.h; sourceTree = "<group>"; };
 		23B49DA11E12AFC80067E53F /* PlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderCell.m; sourceTree = "<group>"; };
-		23B49DA51E12AFC80067E53F /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
-		23B49DA61E12AFC80067E53F /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
-		23B49DA71E12AFC80067E53F /* PhotosBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosBrowserViewController.h; sourceTree = "<group>"; };
-		23B49DA81E12AFC80067E53F /* PhotosBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosBrowserViewController.m; sourceTree = "<group>"; };
+		23B49DBB1E1360450067E53F /* my-profile-new-photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-profile-new-photo@2x.png"; sourceTree = "<group>"; };
+		23B49DBC1E1360450067E53F /* my-profile-select-photo_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-profile-select-photo_default@2x.png"; sourceTree = "<group>"; };
+		23B49DBD1E1360450067E53F /* step4-upload-pictures-select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4-upload-pictures-select@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +137,7 @@
 				23B49D191E1257550067E53F /* AppDelegate.m */,
 				23B49D1B1E1257550067E53F /* ViewController.h */,
 				23B49D1C1E1257550067E53F /* ViewController.m */,
+				23B49DBA1E1360450067E53F /* Resoure */,
 				23B49D621E1257BE0067E53F /* Masonry */,
 				23B49D1E1E1257550067E53F /* Main.storyboard */,
 				23B49D211E1257550067E53F /* Assets.xcassets */,
@@ -196,7 +191,6 @@
 			children = (
 				23B49D841E12AFC80067E53F /* CameraCoordinator */,
 				23B49D951E12AFC80067E53F /* PhotoCoordinator */,
-				23B49DA21E12AFC80067E53F /* PhotosBrowser */,
 			);
 			path = ayi;
 			sourceTree = "<group>";
@@ -214,21 +208,10 @@
 				23B49D8C1E12AFC80067E53F /* PermissionsManager.m */,
 				23B49D8D1E12AFC80067E53F /* PreviewPhotoViewController.h */,
 				23B49D8E1E12AFC80067E53F /* PreviewPhotoViewController.m */,
-				23B49D8F1E12AFC80067E53F /* Resoure */,
 				23B49D931E12AFC80067E53F /* UIImage+Extension.h */,
 				23B49D941E12AFC80067E53F /* UIImage+Extension.m */,
 			);
 			path = CameraCoordinator;
-			sourceTree = "<group>";
-		};
-		23B49D8F1E12AFC80067E53F /* Resoure */ = {
-			isa = PBXGroup;
-			children = (
-				23B49D901E12AFC80067E53F /* my-profile-new-photo@2x.png */,
-				23B49D911E12AFC80067E53F /* my-profile-select-photo_default@2x.png */,
-				23B49D921E12AFC80067E53F /* step4-upload-pictures-select@2x.png */,
-			);
-			path = Resoure;
 			sourceTree = "<group>";
 		};
 		23B49D951E12AFC80067E53F /* PhotoCoordinator */ = {
@@ -250,31 +233,14 @@
 			path = PhotoCoordinator;
 			sourceTree = "<group>";
 		};
-		23B49DA21E12AFC80067E53F /* PhotosBrowser */ = {
+		23B49DBA1E1360450067E53F /* Resoure */ = {
 			isa = PBXGroup;
 			children = (
-				23B49DA31E12AFC80067E53F /* Lib */,
-				23B49DA71E12AFC80067E53F /* PhotosBrowserViewController.h */,
-				23B49DA81E12AFC80067E53F /* PhotosBrowserViewController.m */,
+				23B49DBB1E1360450067E53F /* my-profile-new-photo@2x.png */,
+				23B49DBC1E1360450067E53F /* my-profile-select-photo_default@2x.png */,
+				23B49DBD1E1360450067E53F /* step4-upload-pictures-select@2x.png */,
 			);
-			path = PhotosBrowser;
-			sourceTree = "<group>";
-		};
-		23B49DA31E12AFC80067E53F /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				23B49DA41E12AFC80067E53F /* SwipeView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		23B49DA41E12AFC80067E53F /* SwipeView */ = {
-			isa = PBXGroup;
-			children = (
-				23B49DA51E12AFC80067E53F /* SwipeView.h */,
-				23B49DA61E12AFC80067E53F /* SwipeView.m */,
-			);
-			path = SwipeView;
+			path = Resoure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +303,10 @@
 			files = (
 				23B49D251E1257550067E53F /* LaunchScreen.storyboard in Resources */,
 				23B49D221E1257550067E53F /* Assets.xcassets in Resources */,
-				23B49DAE1E12AFC80067E53F /* my-profile-new-photo@2x.png in Resources */,
+				23B49DBE1E1360450067E53F /* my-profile-new-photo@2x.png in Resources */,
 				23B49D201E1257550067E53F /* Main.storyboard in Resources */,
-				23B49DAF1E12AFC80067E53F /* my-profile-select-photo_default@2x.png in Resources */,
-				23B49DB01E12AFC80067E53F /* step4-upload-pictures-select@2x.png in Resources */,
+				23B49DBF1E1360450067E53F /* my-profile-select-photo_default@2x.png in Resources */,
+				23B49DC01E1360450067E53F /* step4-upload-pictures-select@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +326,6 @@
 				23B49DB31E12AFC80067E53F /* PhotoAlbumViewController.m in Sources */,
 				23B49DB21E12AFC80067E53F /* PhotoAlbumCell.m in Sources */,
 				23B49D1D1E1257550067E53F /* ViewController.m in Sources */,
-				23B49DB81E12AFC80067E53F /* SwipeView.m in Sources */,
 				23B49D7F1E1257BE0067E53F /* MASViewConstraint.m in Sources */,
 				23B49D821E1257BE0067E53F /* View+MASAdditions.m in Sources */,
 				23B49DAC1E12AFC80067E53F /* PermissionsManager.m in Sources */,
@@ -369,7 +334,6 @@
 				23B49D1A1E1257550067E53F /* AppDelegate.m in Sources */,
 				23B49DAA1E12AFC80067E53F /* CaptureSessionCoordinator.m in Sources */,
 				23B49D7D1E1257BE0067E53F /* MASLayoutConstraint.m in Sources */,
-				23B49DB91E12AFC80067E53F /* PhotosBrowserViewController.m in Sources */,
 				23B49DA91E12AFC80067E53F /* CameraView.m in Sources */,
 				23B49D171E1257550067E53F /* main.m in Sources */,
 				23B49D811E1257BE0067E53F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
